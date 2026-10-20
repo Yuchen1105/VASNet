@@ -1,0 +1,26 @@
+{
+  "model_source": "models/MambaUXV32.py",
+  "sha256": "b9a4d94fde8c41d7f98292949c943de76d1ce4fd5608abdf2d803f44163307e2",
+  "release_model_sha256": "8edd314447d44c6eabe415b9055c7dc397da62abe17e44e1ca44c8cbbc66010d",
+  "sources": {
+    "models/MambaUXV32.py": "b9a4d94fde8c41d7f98292949c943de76d1ce4fd5608abdf2d803f44163307e2",
+    "train_99_MambaUXV32_Feta.py": "8cfd029612069e46242d4d7d16b50d18f3531f7e25a1a0ea6237a8a6108f0b4a",
+    "train_99_MambaUXV32_BOBs.py": "6b146d542b93ef95fadcee7af218233b64e090a02453bddf0ab4a3805a3f3cf7",
+    "train_99_MambaUXV32_CBCP.py": "77973b7aace380541a84f656ec79ffbfa6f8746d9cc9a7bfbc2562e5eafadb79",
+    "train_99_MambaUXV32_FTS_v1.py": "8249282a429ac0e7612ece0cb5d9df4bf05058ade2edb5ccebbbe025180927af",
+    "VASNet_FeTA_eval.py": "b17ae249c4db5e6864685e7ac150948b24d21ea6c11e25c090affd88eadb3a04",
+    "VASNet_BOBs_eval.py": "3b7afc5e461a3f3efd033b7d235abad7d7123551f064d9b0c0d37ad47ee67e90",
+    "VASNet_CBCP_eval.py": "c7a8f07edd930a03d2c84b7e9756349bc55c068e102f7667f9ca9c03ab5cc7e9",
+    "test_99_MambaUXV32_FTS.py": "7c1e18a368265801ba4e0b6188be1f292068792cfc49567d1bcad1da6140014b",
+    "2_preprocess_data_FTS.py": "1aade0395d0974d46ce22bf9dc879c2bfd460388936d5162117951a596933db6"
+  },
+  "changes": [
+    "Removed unused logging/network-download utilities, profiling entry point and debug printing.",
+    "Renamed public UXNET class to VASNet; retained all registered parameter and buffer paths.",
+    "Canonical orientation during evaluation by default; legacy_random retains the historical random-view behavior.",
+    "Replaced unused timm import with a local parameter-free DropPath implementation.",
+    "Added explicit input-patch/topology checks; no learned layer was substituted from manuscript equations."
+  ],
+  "conference_archive_sha256": "e2b3a70da2d0fa724904431de5236f5a84ca968498117b2a1b373265a5c60e20",
+  "journal_manuscript_sha256": "eeac6e7b5bf9b5311c51855d0eb8c525b3754e2f7eacd4cc58164d30e6dd8dcb"
+}

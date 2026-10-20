@@ -1,0 +1,17 @@
+{
+  "dataset": "fts",
+  "num_classes": 6,
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "labels": {
+    "0": "background",
+    "1": "label_1",
+    "2": "label_2",
+    "3": "label_3",
+    "4": "label_4",
+    "5": "label_5"
+  }
+}

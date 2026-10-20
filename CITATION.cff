@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the submitted manuscript; publication metadata is pending."
+type: software
+abstract: "Code accompanying a submitted, unpublished manuscript. Publication metadata is pending."
+title: "Volumetric Anatomy-aware Structural Modeling for Perinatal Brain Tissue Segmentation"
+authors:
+  - family-names: Zhu
+    given-names: Yueyue
+  - family-names: Zhang
+    given-names: Yuqi
+  - family-names: Guo
+    given-names: Yu
+  - family-names: Yang
+    given-names: Zongjian
+  - family-names: Ma
+    given-names: Lanxiang
+  - family-names: Zhang
+    given-names: Han
+  - family-names: Ma
+    given-names: Jiquan
+  - family-names: Chen
+    given-names: Geng
+version: 1.0.0
+date-released: 2026-10-19

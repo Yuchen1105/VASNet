@@ -1,0 +1,15 @@
+{
+  "dataset": "bobs",
+  "num_classes": 4,
+  "patch_size": [
+    128,
+    128,
+    128
+  ],
+  "labels": {
+    "0": "background",
+    "1": "label_1",
+    "2": "label_2",
+    "3": "label_3"
+  }
+}

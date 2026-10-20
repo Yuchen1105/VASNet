@@ -1,0 +1,3 @@
+# Linux CUDA toolchain; install after PyTorch, with --no-build-isolation.
+causal-conv1d==1.5.2
+mamba-ssm==2.2.5

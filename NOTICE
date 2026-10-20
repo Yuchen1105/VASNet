@@ -1,0 +1,15 @@
+VASNet journal-submission release preparation
+
+The model is derived from the authors' local MambaUXV32 implementation. Source
+hashes and reviewed experiment entry points are recorded in docs/SOURCE_PROVENANCE.json.
+The supplied VSMamba conference archive contained no top-level LICENSE file.
+No new license permission is granted by this preparation. The authors must
+determine the repository license and preserve applicable upstream obligations
+before public redistribution.
+
+The source uses MONAI components and the external Mamba implementation. Their
+respective licenses apply to those dependencies. Mamba, MONAI and PyTorch are
+installed separately; their source and binaries are not bundled here.
+
+Manuscript figures remain subject to the authors' and any applicable publisher's
+rights. Inclusion here does not establish a third-party redistribution license.
